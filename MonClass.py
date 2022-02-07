@@ -1,8 +1,8 @@
 
-#ALERT
+#ALERT!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 #Assignment to calculate pay==fROM(LINE 57-67)
-
-
+#,Monday 7/02/2022-from line 140-231
+#*****************************************
 #Python class notes and learning 
 #:Richard Mathenge
 
@@ -136,3 +136,100 @@ elif(Bob>Alice and john):
     print("Bob is 150cm")
 else:
         print("Alice is tall")
+
+        #Monday 07 /02/2022
+a=int(input("Enter first Number:"))
+b=int(input("Enter second Number:"))
+c=int(input("Enter third Number:"))
+if a>b and a>c:
+    print("A is greatest")
+    # TODO: write code...
+if b>a and b > c:
+     print ("B us greater")
+if c > a and c > b:
+     print("B is greater")
+     
+
+#py program to check determine the amount of bonus to be given
+import time 
+salary=int(input("Your salary:"))
+exp=int(input("Enter period:"))
+if(exp>10):
+  
+     bonus = 0.01*salary
+     print("bonus 10%=",salary)
+  
+if  exp>=6 and exp<=10:
+    
+     bonus= 0.8*salary
+     print("bonus 8%=", salary)
+    
+elif(exp<6):
+    
+    bonus= 0.5*salary
+    print("bonus 5% =", salary)
+    print("Exiting in 20 seconds...")
+time_duration = 20  #duration
+time.sleep(time_duration)#access the duration
+
+    
+
+
+ 
+score=int (input("score1:"))
+if (score<0 or score >100):
+    print("Errror , score cannot exceed 100, and < 0")
+    exit(0)
+score=int (input("score2:"))
+if (score<0 and score >100):
+    print("Errror , score cannot exceed 100, and < 0")
+    exit(0)
+score=int (input("score3:"))
+if (score<0 and score >100):
+    print("Errror , score cannot exceed 100, and < 0")
+    exit(0)
+score=int (input("score4:"))
+if (score<0 and score >100):
+    print("Errror , score cannot exceed 100, and < 0")
+    exit(0)
+score=int (input("score5:"))
+if (score<0 and score >100):
+    print("Errror , score cannot exceed 100, and < 0")
+    exit(0)
+sum=score+score+score+score+score
+average=sum/5
+#if (score<0 and score >100):
+    #print("Errror , score cannot exceed 100, and < 0")
+if (average>=70 and average <=100):
+    print("Grade","A")
+    # TODO: write code...
+elif(average>=60 and average <=69):
+    print("Grade","B")
+    # TODO: write code...
+elif (average>=50 and average <=59):
+    print("Grade",C)
+    # TODO: write code...
+elif (average>=40 and average <=49):
+    print("Grade","D")
+    # TODO: write code...
+elif(average>=0 and average <=39):
+    print("Grade","FAIL dude....")
+    # TODO: write code...
+elif(average<0 and average >100):
+    print("Error, average should be within 0-100")
+    
+
+    #if statement to check the various if functionability
+    nationality=["kenya,india"]
+nationaliti=(input("nationality:"))
+age=int(input("Age:"))
+if (nationaliti in nationality ==kenya):
+ if(age>=18):
+   print("Eligible")
+  print("18years")
+ print("kenya")
+    # TODO: write code...
+
+
+
+    
