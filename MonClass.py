@@ -61,10 +61,9 @@ a=int(input("Enter Hours:"))#Convert to int
 b=float(input("Enter Rate"))#convert to float
 pay=a*b                    #calculate the pay
 print("Pay=",pay)          #Return the pay
-
 print("Exiting in 1 minute.......")  #alert
 time_duration = 60  #duration
-time.sleep(time_duration)#access the duration
+time.sleep(time_duration)#access the duration time
 
 #MONDAY 31/01/2022
 #operators class
@@ -229,6 +228,20 @@ if (nationaliti in nationality ==kenya):
   print("18years")
  print("kenya")
     # TODO: write code...
+
+#Monday class byOTIENOIAN
+#code
+list=[1,2,3]#declaring the list
+sum=0#initializinglist
+for x in list:#//tollopwithin the loop
+  sum=sum+x
+print("sum=",sum)#//to print the sum
+
+
+
+
+
+
 
 
 
