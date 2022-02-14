@@ -1,8 +1,14 @@
 
 #ALERT!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 #Assignment to calculate pay==fROM(LINE 57-67)
+<<<<<<< HEAD
 #,Monday 7/02/2022-from line 140-231
 #*****************************************
+=======
+#Assignment to check the tallest being from (127-139)
+
+
+>>>>>>> 02c3a6c1707aa246e96eeb56a9747cc2c12ddeda
 #Python class notes and learning 
 #:Richard Mathenge
 
